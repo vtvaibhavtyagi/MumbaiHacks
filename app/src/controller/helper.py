@@ -20,5 +20,4 @@ async def verify_vehicle(file: UploadFile = File(...)):
         IMAGEDIR, file.filename)
     with open(file_path, "wb") as image:
         image.write(await file.read())
-    return vehicleInfo.extractvehicleInfo(file_path)
-    
+    return vehicleInfo.extractvehicleInfo(file)

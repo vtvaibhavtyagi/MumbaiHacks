@@ -1,7 +1,7 @@
 import uvicorn
 from typing import Union
-from fastapi import FastAPI,Depends
-from src.controller import owner,helper
+from fastapi import FastAPI, Depends
+from src.controller import owner, helper
 
 app = FastAPI()
 
