@@ -1,3 +1,4 @@
 env
 venv
 app/src/ml/yolov4.weights
+app/src/img/*
